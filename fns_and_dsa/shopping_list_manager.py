@@ -1,5 +1,6 @@
 # shopping_list_manager.py
 def display_menu():
+    # Correct format for printing the "Shopping List Manager" heading
     print("\nShopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
