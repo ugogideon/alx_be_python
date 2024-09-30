@@ -4,9 +4,11 @@ CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5  # Correct conversion factor from C to F
 OFFSET = 32   # Constant used in both conversions
 # Function to convert fahrenheit to celsius
 def convert_to_celsius(fahrenheit):
+    # Using the required formula (fahrenheit - OFFSET) * FAHRENHEIT_TO_CELSIUS_FACTOR
     return (fahrenheit - OFFSET) * FAHRENHEIT_TO_CELSIUS_FACTOR
 # Function to convert celsius to fahrenheit
 def convert_to_fahrenheit(celsius):
+    # Using the required formula (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + OFFSET
     return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + OFFSET
 # Main function for user interaction
 def main():
