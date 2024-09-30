@@ -1,6 +1,6 @@
 # Global Conversion Factors
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9  # Correct conversion factor from F to C
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5  # Correct conversion factor from C to F
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9  # Correct conversion factor from F to C
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5  # Correct conversion factor from C to F
 OFFSET = 32   # Constant used in both conversions
 # Function to convert fahrenheit to celsius
 def convert_to_celsius(fahrenheit):
