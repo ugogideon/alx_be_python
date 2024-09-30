@@ -5,11 +5,11 @@ OFFSET = 32   # Constant used in both conversions
 # Function to convert fahrenheit to celsius
 def convert_to_celsius(fahrenheit):
     # Using the required formula (fahrenheit - OFFSET) * FAHRENHEIT_TO_CELSIUS_FACTOR
-    return (fahrenheit - OFFSET) * FAHRENHEIT_TO_CELSIUS_FACTOR
+    return (fahrenheit - 32) * FAHRENHEIT_TO_CELSIUS_FACTOR
 # Function to convert celsius to fahrenheit
 def convert_to_fahrenheit(celsius):
     # Using the required formula (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + OFFSET
-    return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + OFFSET
+    return (celsius * CELSIUS_TO_FAHRENHEIT_FACTOR) + 32
 # Main function for user interaction
 def main():
     try:
