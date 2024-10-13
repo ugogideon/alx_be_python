@@ -22,4 +22,4 @@ match operation:
         else:
             print("Cannot be divided by zero.")
     case _:
-        print("Invalid operation selected.")                        
+        print("Invalid operation")                        
